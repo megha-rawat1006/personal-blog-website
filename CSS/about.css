@@ -1,0 +1,65 @@
+﻿@import "header.css";
+@import "footer.css";
+@import "responsive.css";
+body
+{
+    background-color:antiquewhite;
+    align-content:center;
+}
+
+*{
+    text-decoration: none;;
+}
+
+h1{
+    color:white; 
+}  
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    text-align: center;
+    color:rgb(66, 65, 65);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 20px;
+    background-color:antiquewhite;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+    padding-left: 120px;
+    padding-right: 80px;
+    border-radius:50%; 
+}
+
+.container .text {
+    text-align: left;
+    background-color:antiquewhite;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container .text h2 {
+    font-size: 100px;
+    font-family:Brush Script MT;
+}
+
+.container .text h3 span{
+    font-style: italic;
+    color:rgb(98, 49, 49);
+    font-size: 25px;
+}
+
+.text h3 {
+    font-size: 20px;
+    font-family: Comic Sans MS;
+}
+
