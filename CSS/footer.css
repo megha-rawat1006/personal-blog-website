@@ -1,0 +1,27 @@
+.contact{
+    margin: 10px 20px;
+    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-details{
+    list-style:none;
+}
+
+.info-details a {
+    text-decoration: none;
+    color: black;
+    font-family: Segoe UI;
+}
+
+.info-details a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: gray;
+    color: black;
+}

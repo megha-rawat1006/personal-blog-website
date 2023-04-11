@@ -1,0 +1,149 @@
+@import "header.css";
+@import "footer.css";
+
+body{
+    background-color: antiquewhite;
+}
+header .logo a{
+    text-decoration: none;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    text-align: center;
+    color:rgb(66, 65, 65);
+}
+
+h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    color:rgb(66, 65, 65);
+}
+
+.container {
+    display: grid;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 500px ;
+    column-gap: 0px;
+}
+.main-content {
+    padding:20px;
+}
+ 
+.main-content p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.2rem;
+    padding:20px;
+}
+
+.side-content .about{
+    width:95%;
+    height:450px;
+    margin:50px 10px 10px 10px ;
+    border-radius: 5px;
+    position:relative;
+    background-color: rgb(240, 221, 224);
+}
+
+.side-content .follow{
+    width:95%;
+    height:230px;
+    margin:30px 10px 10px 10px ;
+    border-radius: 5px;
+    position:relative;
+    background-color: rgb(240, 221, 224);
+}
+
+.text p {
+    width: 90%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+    overflow: hidden;
+    text-align: left;
+    margin:30px 30px 0px 30px;
+}
+
+.image img {
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+border-radius:50%; 
+}
+
+.read-more{
+margin:0px 30px;
+font-size:12px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    margin:0px 0px 0px 100px;
+    background: #007bb5;
+    color: white;
+}
+
+.fa-snapchat-ghost {
+    margin:0px 55px 0px 55px;
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+    margin:0px 100px 0px 0px;
+    background: #d62976;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin:0px 50px 0px 50px;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin:0px 100px 0px 0px;
+}
+
+.button {
+    padding:.5rem 1rem;
+    margin:20px;
+    background-color: slateblue;
+    color: white;
+    border: 1px solid white;
+    border-radius: .25rem;
+    text-decoration: none;
+    width:100px;
+    height:40px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black
+}
+
+h3 span{
+    margin:20px;
+}

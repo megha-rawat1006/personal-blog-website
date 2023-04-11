@@ -1,0 +1,106 @@
+@media only screen and (max-width: 600px){
+
+    header nav ul{
+        width:100%;
+        background-color: black;;
+    }
+
+    header nav ul li{
+        width:100%;
+    }
+
+    header nav ul li a{
+        position:static;
+        display: block;
+        width:100%;
+        
+    }
+
+    .home {
+        width:100%;
+    }
+
+    .blog .main-content{
+        width:100%;
+        float:left;
+    }
+
+    .blog .main-content .post{
+        width:95%;
+        height:300px;
+        
+    }
+
+    
+    .blog .side-content{
+        width:100%;
+        float:left;
+    }
+
+    .blog .side-content .about{
+        width:100%;
+        height:500px;
+        float:left;
+        margin:100px 10px 10px 10px ;
+    }
+
+    .blog .side-content .follow{
+        width:100%;
+        height:300px;
+        float:left;
+        margin:30px 10px 10px 10px ;
+    }
+
+    .fa-linkedin {
+        margin:0px 0px 0px 100px;
+    }
+    
+    .fa-snapchat-ghost {
+        margin:0px 45px 0px 45px;
+    }
+    
+    .fa-instagram {
+        margin:0px 100px 0px 0px;
+    }
+    
+}
+
+
+@media only screen and (min-width:550px){
+
+    .blog .main-content{
+        width:60%;
+        float:left;
+    }
+
+    .blog .main-content .post{
+        width:95%;
+    }
+
+    
+    .blog .side-content{
+        width:40%;
+        float:left;
+    }
+
+    .blog .side-content .about{
+        width:95%;
+    }
+
+    .blog .side-content .follow{
+        width:95%;
+    }
+
+    .fa-linkedin {
+        margin:0px 0px 0px 100px;
+    }
+    
+    .fa-snapchat-ghost {
+        margin:0px 55px 0px 55px;
+    }
+    
+    .fa-instagram {
+        margin:0px 100px 0px 0px;
+    }
+    
+}
